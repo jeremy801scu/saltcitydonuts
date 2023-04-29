@@ -472,6 +472,17 @@ nav .social-nav li a:hover{
     color: white;
   }
 
+  @media only screen and (max-width: 992px){
+    .social-footer li a i {
+        font-size: 30px; /* Set the font size to 2 times the default size */
+      }
+      
+      .social-footer li {
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+  }
+
 
 
 /*   font-family: 'Bangers', cursive;   */
