@@ -389,7 +389,6 @@ nav .social-nav li a:hover{
     background-image: url('images/backgrounddonut.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
 }
 
 .home-now .card{
