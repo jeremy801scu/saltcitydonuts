@@ -119,6 +119,10 @@ nav .social-nav li a:hover{
     background-color: palevioletred;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-image: url('images/joshua-coleman-Cj8h7-b47ko-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .home-us .heading h2{
