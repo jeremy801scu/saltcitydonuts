@@ -399,6 +399,8 @@ nav .social-nav li a:hover{
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
     margin-top: 30px;
+    height: 450px;
+    width: auto;
 }
 
 .home-menu .card-title{
@@ -408,6 +410,14 @@ nav .social-nav li a:hover{
 .home-menu .card-text{
     font-size: 20px;
 }
+
+@media only screen and (max-width: 767px){
+    .home-menu .card .card-img-top{
+        height: 300px;
+        width: auto;
+    }
+    }
+    
 
 .home-now{
     background-image: url('images/backgrounddonut.jpg');
@@ -458,29 +468,30 @@ nav .social-nav li a:hover{
 
 .home-footer h4{
     color: palevioletred;
-    margin-top: 50px;
+    margin-top: 30px;
+    font-size: 40px;
 }
 
 #footer-about {
     flex: 1;
     text-align: center;
-    border-left: 3px dotted palevioletred;
     margin-top: 10px;
   }
   
   #footer-contact {
     flex: 1;
     text-align: center;
-    margin-top: 10px;
-    border-left: 3px dotted palevioletred;
-    border-right: 3px dotted palevioletred;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-left:8px dotted palevioletred;
+    border-right: 8px dotted palevioletred;
   }
   
   #footer-social {
     flex: 1;
     text-align: center;
     margin-top: 10px;
-    border-right: 3px dotted palevioletred;
   }
 
   .social-footer {
@@ -523,12 +534,17 @@ nav .social-nav li a:hover{
     text-align: center;
     color: white;
     font-size: 15px;
+    margin-top: 50px;
   }
 
-  @media only screen and (max-width: 379px){
-    #footer-social {
-        border-left: 3px dotted palevioletred;
-        margin-top: 10px;
+@media only screen and (max-width: 441px){
+    #footer-contact {
+        border-right: none;
+        margin-left: 10px;
+      }
+
+      #footer-about{
+        margin-right: 10px;
       }
 }
 
