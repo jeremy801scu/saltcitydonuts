@@ -22,6 +22,26 @@ nav{
     height: 50px;
 }
 
+nav .btn-primary{
+    margin-left: 100px;
+    font-size: 30px;
+    background-color: palevioletred;
+    text-shadow: 2px 2px 4px #000000, -2px -2px 4px black;
+    border: solid 2px white;
+    border-radius: 30%;
+    box-shadow: 2px 2px 4px black, -2px -2px 4px black;
+}
+
+nav .btn-primary:hover{
+    background-color: white;
+    text-shadow: 2px 2px 4px #000000, -2px -2px 4px black;
+    border: solid 2px palevioletred;
+    border-radius: 30%;
+    box-shadow: 2px 2px 4px black, -2px -2px 4px black;
+    color: palevioletred;
+    cursor: url(images/DL4.png), pointer;
+}
+
 nav .nav-item .nav-link.active{
     color: palevioletred;
 }
@@ -33,6 +53,7 @@ nav .nav-item .nav-link:hover{
 nav .social-nav h1{
     text-align: center;
     color: palevioletred;
+    text-shadow:2px 2px 4px black;
 }
 
 nav .social-nav{
@@ -427,6 +448,7 @@ nav .social-nav li a:hover{
 
 .home-now .card{
     margin-top: 40px;
+    margin-bottom: 40px;
     background-color: transparent;
     border: none;
     text-align: center;
