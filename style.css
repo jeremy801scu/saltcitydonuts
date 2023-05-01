@@ -67,13 +67,14 @@ nav .social-nav li a:hover{
 
 .home-banner{
     width: 100%;
+    height: 600px;
     color: black;
     text-align: center;
     text-shadow: 2px 2px 4px white, -2px -2px 4px white;
 }
 
 .home-banner h1{
-    margin-top: 80px;
+    margin-top: 200px;
     font-size: 90px;
     font-weight: 800;
 }
@@ -93,6 +94,7 @@ nav .social-nav li a:hover{
     border: solid 2px white;
     border-radius: 30%;
     color: white;
+    box-shadow: 2px 2px 4px white, -2px -2px 4px white;
 }
 
 .home-banner button:hover{
@@ -101,21 +103,17 @@ nav .social-nav li a:hover{
     border: solid 2px palevioletred;
     color: palevioletred;
     transition: .5s;
+    cursor: url(images/DL4.png), pointer;
 }
 
 .home-banner video{
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     z-index: -1;
+    background-size: cover;
 }
 
-@media(min-aspect-ratio: 16/9){
-    .home-banner video{
-        width: 100%;
-        height: auto;
-    }
-}
 
 .home-us{
     background-color: palevioletred;
@@ -133,7 +131,8 @@ nav .social-nav li a:hover{
 .home-us .card{
     text-align: center;
     height: 470px;
-    margin: 10px;
+    margin: 20px;
+    box-shadow: 10px 10px 20px black;
 }
 
 .home-us .card-title{
@@ -433,6 +432,7 @@ nav .social-nav li a:hover{
     text-shadow: 2px 2px 4px #000000, -2px -2px 4px black;
     border: solid 2px white;
     border-radius: 30%;
+    box-shadow: 2px 2px 4px white, -2px -2px 4px white;
 }
 
 .home-now .btn:hover{
@@ -441,6 +441,8 @@ nav .social-nav li a:hover{
     text-shadow: 2px 2px 4px #000000, -2px -2px 4px black;
     border: solid 2px palevioletred;
     transition: ease .5s;
+    cursor: url(images/DL4.png), pointer;
+    box-shadow: 2px 2px 4px palevioletred, -2px -2px 4px palevioletred;
 }
 
 .home-footer{
