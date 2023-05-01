@@ -161,24 +161,24 @@ nav .social-nav li a:hover{
     text-shadow: 2px 2px 4px palevioletred, -2px -2px 4px palevioletred;
 }
 
-.social{
+.home-social .social{
     text-align: center;
 }
 
-.social ul {
+.home-social .social ul {
     list-style-type: none; 
     margin: 0;
     padding: 0;
     display: inline-block; /* Display list items as inline elements */
   }
   
-  .social li {
+  .home-social .social li {
     display: inline-block; /* Display list items as inline elements */
     margin-right: 50px;
     margin-left: 50px;
   }
   
-  .social li a {
+  .home-social .social li a {
     display: block;
     padding: 10px;
     color: white;
@@ -186,18 +186,18 @@ nav .social-nav li a:hover{
     text-shadow: 2px 2px 4px palevioletred, -2px -2px 4px palevioletred;
   }
   
-  .social li a:hover {
+  .home-social .social li a:hover {
     color: palevioletred;
     text-shadow: 2px 2px 4px white, -2px -2px 4px white;
     transition: ease .5s;
   }
 
-  .social li a i {
+.home-social .social li a i {
     font-size: 50px; /* Set the font size to 2 times the default size */
   }
 
   @media only screen and (max-width: 1199px){
-    .social li {
+    .home-social .social li {
         margin-right: 0;
         margin-left: 0;
       }
@@ -450,34 +450,45 @@ nav .social-nav li a:hover{
 
 .home-footer{
     background-color: black;
-}
-
-.home-footer .description{
     color: white;
-    margin-top: 50px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.social-footer{
-    text-align: center;
+.home-footer h4{
+    color: palevioletred;
     margin-top: 50px;
 }
+
+#footer-about {
+    flex: 1;
+    text-align: left;
+  }
+  
+  #footer-contact {
+    flex: 1;
+    text-align: center;
+  }
+  
+  #footer-social {
+    flex: 1;
+    text-align: right;
+  }
 
 .social-footer ul {
     list-style-type: none; 
     margin: 0;
     padding: 0;
-    display: inline-block; /* Display list items as inline elements */
+    text-align: right;
   }
-  
+
   .social-footer li {
-    display: inline-block; /* Display list items as inline elements */
-    margin-right: 50px;
-    margin-left: 50px;
+    list-style: none;
+    margin-top: 20px;
   }
   
   .social-footer li a {
-    display: block;
     padding: 10px;
     color: white;
     margin-bottom: 20px;
@@ -491,13 +502,18 @@ nav .social-nav li a:hover{
   }
 
   .social-footer li a i {
-    font-size: 50px; /* Set the font size to 2 times the default size */
+    font-size: 20px; /* Set the font size to 2 times the default size */
   }
 
   .home-footer .copyright{
     text-align: center;
     color: white;
+    font-size: 15px;
   }
+
+#footer-logo{
+    height: 50px;
+}
 
   @media only screen and (max-width: 992px){
     .social-footer li a i {
@@ -507,6 +523,14 @@ nav .social-nav li a:hover{
       .social-footer li {
         margin-right: 10px;
         margin-left: 10px;
+      }
+
+      #footer-logo{
+        height: 15px;
+      }
+
+      .home-footer .copyright{
+        font-size: 10px;
       }
   }
 
