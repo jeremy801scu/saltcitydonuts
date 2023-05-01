@@ -46,8 +46,17 @@ nav .nav-item .nav-link.active{
     color: palevioletred;
 }
 
+nav .nav-item .nav-link{
+    color: black;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px palevioletred;
+}
+
 nav .nav-item .nav-link:hover{
     color: palevioletred;
+    text-shadow: 2px 2px 4px black;
 }
 
 nav .social-nav h1{
