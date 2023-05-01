@@ -515,8 +515,8 @@ nav .social-nav li a:hover{
     margin-top: 20px;
     margin-right: 5px;
     margin-left: 5px;
-    border-left:8px dotted palevioletred;
-    border-right: 8px dotted palevioletred;
+    border-left: 4px dotted palevioletred;
+    border-right: 4px dotted palevioletred;
   }
   
   #footer-social {
@@ -571,6 +571,7 @@ nav .social-nav li a:hover{
 @media only screen and (max-width: 441px){
     #footer-contact {
         border-right: none;
+        border-left: 2px dotted palevioletred;
         margin-left: 10px;
       }
 
