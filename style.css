@@ -465,11 +465,13 @@ nav .social-nav li a:hover{
     flex: 1;
     text-align: center;
     border-left: 3px dotted palevioletred;
+    margin-top: 10px;
   }
   
   #footer-contact {
     flex: 1;
     text-align: center;
+    margin-top: 10px;
     border-left: 3px dotted palevioletred;
     border-right: 3px dotted palevioletred;
   }
@@ -477,6 +479,7 @@ nav .social-nav li a:hover{
   #footer-social {
     flex: 1;
     text-align: center;
+    margin-top: 10px;
     border-right: 3px dotted palevioletred;
   }
 
@@ -525,6 +528,7 @@ nav .social-nav li a:hover{
   @media only screen and (max-width: 379px){
     #footer-social {
         border-left: 3px dotted palevioletred;
+        margin-top: 10px;
       }
 }
 
