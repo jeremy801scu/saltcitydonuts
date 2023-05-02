@@ -243,6 +243,7 @@ nav .social-nav li a:hover{
     background-color: black;
     text-shadow: 2px 2px 4px palevioletred;
     color: white;
+      overflow-x: hidden;
 }
 
 .home-menu .menu-head h1{
@@ -271,21 +272,21 @@ nav .social-nav li a:hover{
     margin-left: 50px;
   }
 
-  @media only screen and (max-width: 992px){
+  @media only screen and (max-width: 767px){
     .home-menu .glazed h2{
         font-size: 30px;
-        margin-left: 10px;
     }
     
     .home-menu .glazed p{
         font-size: 15px;
-        margin-left: 10px;
     }
 
     .glazed-img img {
         width: 200px;
         height: 100px;
-        margin-left: 10px;
+        margin-left: 5px;
+        margin-left: -10px;
+        padding-left: -10px;
       }    
 }
 
@@ -308,39 +309,21 @@ nav .social-nav li a:hover{
   }
 
 
-@media only screen and (max-width: 992px){
+  @media only screen and (max-width: 767px){
     .home-menu .choco h2{
         font-size: 30px;
-        margin-left: 10px;
     }
     
     .home-menu .choco p{
         font-size: 15px;
-        margin-left: 10px;
     }
 
     .choco-img img {
         width: 200px;
         height: 100px;
-        margin-left: 10px;
-      }    
-}
-
-@media only screen and (max-width: 767px){
-    .home-menu .choco h2{
-        font-size: 30px;
-        margin-left: 10px;
-    }
-    
-    .home-menu .choco p{
-        font-size: 15px;
-        margin-left: 10px;
-    }
-
-    .choco-img img {
-        width: 200px;
-        height: 100px;
-        margin-left: 10px;
+        margin-left: 5px;
+        margin-left: -10px;
+        padding-left: -10px;
       }    
 }
 
@@ -363,21 +346,21 @@ nav .social-nav li a:hover{
     margin-left: 50px;
   }
 
-  @media only screen and (max-width: 992px){
+  @media only screen and (max-width: 767px){
     .home-menu .straw h2{
         font-size: 30px;
-        margin-left: 10px;
     }
     
     .home-menu .straw p{
         font-size: 15px;
-        margin-left: 10px;
     }
 
     .straw-img img {
         width: 200px;
         height: 100px;
-        margin-left: 80px;
+        margin-left: 5px;
+        margin-left: -10px;
+        padding-left: -10px;
       }    
 }
 
@@ -388,35 +371,19 @@ nav .social-nav li a:hover{
 
 .home-menu .boston h2{
     font-size: 40px;
-    margin-left: 10px;
 }
 
 .home-menu .boston p{
     font-size: 20px;
-    margin-left: 10px;
 }
 
 .boston-img img {
     width: 500px;
     height: 400px;
-    margin-left: 10px;
+    margin-left: 50px;
   }
 
 
-@media only screen and (max-width: 992px){
-    .home-menu .boston h2{
-        font-size: 30px;
-    }
-    
-    .home-menu .boston p{
-        font-size: 15px;
-    }
-
-    .boston-img img {
-        width: 300px;
-        height: 200px;
-      }    
-}
 
 @media only screen and (max-width: 767px){
     .home-menu .boston h2{
@@ -431,6 +398,8 @@ nav .social-nav li a:hover{
         width: 200px;
         height: 100px;
         margin-left: 5px;
+        margin-left: -10px;
+        padding-left: -10px;
       }    
 
       .home-menu .col-6 h2{
@@ -443,6 +412,12 @@ nav .social-nav li a:hover{
     
     .home-menu .col-6 img {
         margin-top: 100px;
+      }   
+}
+
+@media only screen and (max-width: 991px){
+    .home-menu .left-img img {
+        float: right;
       }   
 }
 
@@ -701,6 +676,60 @@ nav .social-nav li a:hover{
     font-size: 100px;
 }
 
+.about-faq{
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.about-faq h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px palevioletred;
+}
+
+.about-faq .faq-question{
+    margin-bottom: 15px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+  .about-faq .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .about-faq .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .about-faq .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .about-faq .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .about-faq .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
 
 
 
