@@ -158,7 +158,7 @@ nav .social-nav li a:hover{
     text-align: center;
     color: black;
     font-size: 60px;
-    text-shadow: 2px 2px 4px white, -2px -2px 4px white;
+    text-shadow: 2px 2px 4px white;
 }
 
 .home-us .card{
@@ -181,14 +181,15 @@ nav .social-nav li a:hover{
 }
 
 .home-social{
-    background-color: #000000;
+    background: linear-gradient(to bottom,  palevioletred, black, black, black, black);
 }
+
 
 .home-social .social-text{
     text-align: center;
     color: white;
     margin-top: 20px;
-    text-shadow: 2px 2px 4px palevioletred, -2px -2px 4px palevioletred;
+    text-shadow: 2px 2px 4px palevioletred;
 }
 
 .home-social .social{
@@ -211,14 +212,14 @@ nav .social-nav li a:hover{
   .home-social .social li a {
     display: block;
     padding: 10px;
-    color: white;
+    color: palevioletred;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px palevioletred, -2px -2px 4px palevioletred;
+    text-shadow: 2px 2px 4px black;
   }
   
   .home-social .social li a:hover {
     color: palevioletred;
-    text-shadow: 2px 2px 4px white, -2px -2px 4px white;
+    text-shadow: 2px 2px 4px white;
     transition: ease .5s;
   }
 
@@ -234,14 +235,16 @@ nav .social-nav li a:hover{
   }
 
 .home-menu{
-    background-color: white;
+    background-color: black;
+    text-shadow: 2px 2px 4px palevioletred;
+    color: white;
 }
 
 .home-menu .menu-head h1{
     text-align: center;
     margin-top: 20px;
     font-size: 100px;
-    text-shadow: 2px 2px 4px palevioletred, -2px -2px 4px palevioletred;
+    text-shadow: 2px 2px 4px palevioletred;
 }
 
 .home-menu .glazed{
@@ -421,6 +424,8 @@ nav .social-nav li a:hover{
 .home-menu .card{
     text-align: center;
     border: none;
+    color: white;
+    background-color: black;
 }
 
 .home-menu .card .card-img-top{
