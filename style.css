@@ -751,6 +751,14 @@ nav .social-nav li a:hover{
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
 
+  .contact-form{
+    color: white;
+  }
+
+  #contact h2{
+    text-shadow: 2px 2px 4px palevioletred;
+  }
+
 
 
 
