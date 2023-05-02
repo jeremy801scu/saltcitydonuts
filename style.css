@@ -4,10 +4,6 @@ body{
 
 /* nav bar */
 
-nav{
-    border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 30%;
-}
 
 .logo{
     font-size: 25px;
@@ -603,15 +599,44 @@ nav .social-nav li a:hover{
       }
   }
 
+#menu-body{
+    background-color: black;
+}
+
 .menu-title{
     text-align: center;
-    text-shadow: 2px 2px 4px palevioletred;
-    background-color: black;
-    color: white;
+    text-shadow: 2px 2px 4px white;
+    color: black;
+    background-image: url('images/joshua-coleman-Cj8h7-b47ko-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .menu-title h1{
     font-size: 100px;
+}
+
+.menu-featured{
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: white;
+}
+
+.menu-featured h1{
+    text-shadow: 2px 2px 4px palevioletred;
+}
+
+
+.menu-standard{
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: white;
+}
+
+.menu-standard h1{
+    text-shadow: 2px 2px 4px palevioletred;
 }
 
 .menu-featured .featured-header h1{
@@ -620,6 +645,19 @@ nav .social-nav li a:hover{
 
 .menu-standard .standard-header h1{
     text-align: center;
+}
+
+.about-title{
+    text-align: center;
+    text-shadow: 2px 2px 4px white;
+    color: black;
+    background-image: url('images/joshua-coleman-Cj8h7-b47ko-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-title h1{
+    font-size: 100px;
 }
 
 
