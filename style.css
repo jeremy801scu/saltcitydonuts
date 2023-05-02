@@ -243,7 +243,6 @@ nav .social-nav li a:hover{
     background-color: black;
     text-shadow: 2px 2px 4px palevioletred;
     color: white;
-    overflow-x: hidden;
 }
 
 .home-menu .menu-head h1{
@@ -275,16 +274,18 @@ nav .social-nav li a:hover{
   @media only screen and (max-width: 992px){
     .home-menu .glazed h2{
         font-size: 30px;
+        margin-left: 10px;
     }
     
     .home-menu .glazed p{
         font-size: 15px;
+        margin-left: 10px;
     }
 
     .glazed-img img {
         width: 200px;
         height: 100px;
-        margin-left: 5px;
+        margin-left: 10px;
       }    
 }
 
@@ -304,39 +305,42 @@ nav .social-nav li a:hover{
 .choco-img img {
     width: 500px;
     height: 400px;
-    margin-left: 50px;
   }
 
 
 @media only screen and (max-width: 992px){
     .home-menu .choco h2{
         font-size: 30px;
+        margin-left: 10px;
     }
     
     .home-menu .choco p{
         font-size: 15px;
+        margin-left: 10px;
     }
 
     .choco-img img {
         width: 200px;
         height: 100px;
-        margin-right: 50px;
+        margin-left: 10px;
       }    
 }
 
 @media only screen and (max-width: 767px){
     .home-menu .choco h2{
         font-size: 30px;
+        margin-left: 10px;
     }
     
     .home-menu .choco p{
         font-size: 15px;
+        margin-left: 10px;
     }
 
     .choco-img img {
         width: 200px;
         height: 100px;
-        margin-left: 5px;
+        margin-left: 10px;
       }    
 }
 
@@ -362,16 +366,18 @@ nav .social-nav li a:hover{
   @media only screen and (max-width: 992px){
     .home-menu .straw h2{
         font-size: 30px;
+        margin-left: 10px;
     }
     
     .home-menu .straw p{
         font-size: 15px;
+        margin-left: 10px;
     }
 
     .straw-img img {
         width: 200px;
         height: 100px;
-        margin-left: 5px;
+        margin-left: 80px;
       }    
 }
 
@@ -382,16 +388,18 @@ nav .social-nav li a:hover{
 
 .home-menu .boston h2{
     font-size: 40px;
+    margin-left: 10px;
 }
 
 .home-menu .boston p{
     font-size: 20px;
+    margin-left: 10px;
 }
 
 .boston-img img {
     width: 500px;
     height: 400px;
-    margin-left: 50px;
+    margin-left: 10px;
   }
 
 
@@ -407,7 +415,6 @@ nav .social-nav li a:hover{
     .boston-img img {
         width: 300px;
         height: 200px;
-        margin-right: 50px;
       }    
 }
 
