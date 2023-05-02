@@ -13,7 +13,7 @@
     <title>Salt City Donuts</title>
 </head>
 
-<body>
+<body id="menu-body">
     <nav class="navbar bg-body-tertiary sticky-top">
         <div class="container">
           <a class="navbar-brand logo" href="#">Salt City <span>Donuts</span>
@@ -63,11 +63,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Order</h1>
+                    <h1>Contact</h1>
                 </div>
             </div>
         </div>
       </div>
+
 
       <div class="home-now">
         <div class="container">
@@ -75,57 +76,58 @@
             <div class="col-md-12">
               <div class="card">
                 <div class="card-body">
-                  <p class="card-text">Donut worry, be happy. Especially when there's a fresh batch of these bad boys around</p>
+                  <p class="card-text">Donuts: the only circle of trust you'll ever need.</p>
+                  <a href="order.html" class="btn btn-primary">Order Now</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-
-      <div class="home-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4" id="footer-about">
-              <h4>About Us</h4>
-              <p>Salt City Donuts is a community-driven donut shop serving up fresh, delicious donuts daily. Come and taste our unique flavors and experience the warmth of our friendly atmosphere.</p>
-            </div>
-            <div class="col-md-4" id="footer-contact">
-              <h4>Contact Us</h4>
-              <p>1234 Fake Street, Salt Lake City</p>
-              <p>Phone: (801) 555-5555</p>
-              <p>Email: fake@saltcitydonuts.com</p>
-            </div>
-            <div class="col-md-4" id="footer-social">
-              <div class="social-header">
-                <h4>Follow Us</h4>
+      
+  
+        <div class="home-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4" id="footer-about">
+                <h4>About Us</h4>
+                <p>Salt City Donuts is a community-driven donut shop serving up fresh, delicious donuts daily. Come and taste our unique flavors and experience the warmth of our friendly atmosphere.</p>
               </div>
-              <div class="social-links">
-                <ul class="social-footer">
-                  <li><a href="https://twitter.com/?lang=en" id="social-twi"><i class="fa-brands fa-twitter"></i></a></li>
-                  <li><a href="https://www.instagram.com/" id="social-gram"><i class="fa-brands fa-square-instagram"></i></a></li>
-                  <li><a href="https://www.facebook.com/" id="social-face"><i class="fa-brands fa-facebook"></i></a></li>
-                  <li><a href="https://www.yelp.com/" id="social-yelp"><i class="fa-brands fa-yelp"></i></a></li>
-                </ul>
+              <div class="col-md-4" id="footer-contact">
+                <h4>Contact Us</h4>
+                <p>1234 Fake Street, Salt Lake City</p>
+                <p>Phone: (801) 555-5555</p>
+                <p>Email: fake@saltcitydonuts.com</p>
               </div>
-            </div>
-
-              <div class="copyright">
-                COPYRIGHT 2023, Mark Jeremy Johnson. All Rights Reserved.
+              <div class="col-md-4" id="footer-social">
+                <div class="social-header">
+                  <h4>Follow Us</h4>
+                </div>
+                <div class="social-links">
+                  <ul class="social-footer">
+                    <li><a href="https://twitter.com/?lang=en" id="social-twi"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/" id="social-gram"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/" id="social-face"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.yelp.com/" id="social-yelp"><i class="fa-brands fa-yelp"></i></a></li>
+                  </ul>
+                </div>
               </div>
-
+  
+                <div class="copyright">
+                  COPYRIGHT 2023, Mark Jeremy Johnson. All Rights Reserved.
+                </div>
+  
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-
-    <script src="script.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery-3.6.1.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
-</html>
+  
+  
+      <script src="script.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/jquery-3.6.1.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+  </html>
