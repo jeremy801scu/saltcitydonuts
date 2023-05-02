@@ -243,6 +243,7 @@ nav .social-nav li a:hover{
     background-color: black;
     text-shadow: 2px 2px 4px palevioletred;
     color: white;
+    overflow-x: hidden;
 }
 
 .home-menu .menu-head h1{
