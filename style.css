@@ -465,6 +465,7 @@ nav .social-nav li a:hover{
     background-position: center;
 }
 
+
 .home-now .card{
     margin-top: 40px;
     margin-bottom: 40px;
@@ -499,6 +500,16 @@ nav .social-nav li a:hover{
     box-shadow: 2px 2px 4px palevioletred, -2px -2px 4px palevioletred;
     transition: ease .5s;
 }
+
+@media only screen and (max-width: 767px){
+    .home-now .card p{
+        font-size: 30px;
+    }
+
+    .home-now .btn{
+        font-size: 30px;
+    }
+    }
 
 .home-footer{
     background-color: black;
