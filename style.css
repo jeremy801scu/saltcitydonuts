@@ -36,6 +36,7 @@ nav .btn-primary:hover{
     box-shadow: 2px 2px 4px black, -2px -2px 4px black;
     color: palevioletred;
     cursor: url(images/DL4.png), pointer;
+    transition: ease .5s;
 }
 
 nav .nav-item .nav-link.active{
@@ -47,12 +48,18 @@ nav .nav-item .nav-link{
     font-size: 25px;
     margin-top: 5px;
     margin-bottom: 5px;
-    text-shadow: 2px 2px 4px palevioletred;
+    text-shadow: 2px 2px 4px white;
 }
+
+nav .nav-item .nav-link:active {
+    color: white;
+  }
 
 nav .nav-item .nav-link:hover{
     color: palevioletred;
+    transition: ease .5s;
     text-shadow: 2px 2px 4px black;
+    transition: ease .5s;
 }
 
 nav .social-nav h1{
@@ -87,6 +94,7 @@ nav .social-nav li a {
 nav .social-nav li a:hover{
     color: palevioletred;
     transition: ease .5s;
+    text-shadow: 2px 2px 4px black;
 }
 
 /* home banner*/
@@ -130,6 +138,7 @@ nav .social-nav li a:hover{
     color: palevioletred;
     transition: .5s;
     cursor: url(images/DL4.png), pointer;
+    transition: ease .5s;
 }
 
 .home-banner video{
@@ -488,6 +497,7 @@ nav .social-nav li a:hover{
     transition: ease .5s;
     cursor: url(images/DL4.png), pointer;
     box-shadow: 2px 2px 4px palevioletred, -2px -2px 4px palevioletred;
+    transition: ease .5s;
 }
 
 .home-footer{
