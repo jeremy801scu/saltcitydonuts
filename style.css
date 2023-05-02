@@ -739,6 +739,10 @@ nav .social-nav li a:hover{
     transition: max-height 0.2s ease-out;
   }
 
+  .about-faq .panel p{
+    margin-top: 15px;
+  }
+
   .about-faq .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
