@@ -723,7 +723,7 @@ nav .social-nav li a:hover{
     outline: none;
     transition: 0.4s;
     text-shadow: 2px 2px 4px palevioletred;
-    font-size: 15px;
+    font-size: 17px;
   }
 
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
