@@ -281,8 +281,8 @@ nav .social-nav li a:hover{
     }
 
     .glazed-img img {
-        width: 300px;
-        height: 200px;
+        width: 200px;
+        height: 100px;
         margin-left: 5px;
       }    
 }
@@ -317,8 +317,8 @@ nav .social-nav li a:hover{
     }
 
     .choco-img img {
-        width: 300px;
-        height: 200px;
+        width: 200px;
+        height: 100px;
         margin-right: 50px;
       }    
 }
@@ -333,8 +333,8 @@ nav .social-nav li a:hover{
     }
 
     .choco-img img {
-        width: 300px;
-        height: 200px;
+        width: 200px;
+        height: 100px;
         margin-left: 5px;
       }    
 }
@@ -368,8 +368,8 @@ nav .social-nav li a:hover{
     }
 
     .straw-img img {
-        width: 300px;
-        height: 200px;
+        width: 200px;
+        height: 100px;
         margin-left: 5px;
       }    
 }
@@ -420,10 +420,22 @@ nav .social-nav li a:hover{
     }
 
     .boston-img img {
-        width: 300px;
-        height: 200px;
+        width: 200px;
+        height: 100px;
         margin-left: 5px;
       }    
+
+      .home-menu .col-6 h2{
+        font-size: 20px;
+    }
+    
+    .home-menu .col-6 p{
+        font-size: 12px;
+    }
+    
+    .home-menu .col-6 img {
+        margin-top: 100px;
+      }   
 }
 
 .home-menu .card{
