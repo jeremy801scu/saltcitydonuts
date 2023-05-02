@@ -603,6 +603,28 @@ nav .social-nav li a:hover{
       }
   }
 
+.menu-title{
+    text-align: center;
+    text-shadow: 2px 2px 4px palevioletred;
+    background-color: black;
+    color: white;
+}
+
+.menu-title h1{
+    font-size: 100px;
+}
+
+.menu-featured .featured-header h1{
+    text-align: center;
+}
+
+.menu-standard .standard-header h1{
+    text-align: center;
+}
+
+
+
+
 
 
 /*   font-family: 'Bangers', cursive;   */
