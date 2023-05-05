@@ -4,18 +4,41 @@ body{
 
 /* nav bar */
 
+nav{
+    background-color: black;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
 
 .logo{
     font-size: 25px;
-    margin-left: 35px;
+    color: white;
+    text-shadow: 2px 2px 4px palevioletred, -2px -2px 4px palevioletred;
 }
 
 .logo span{
     color: palevioletred;
+    text-shadow: 2px 2px 4px white, -2px -2px 4px white;
 }
 
 .logo img{
     height: 50px;
+}
+
+.logo:hover{
+    color: white;
+}
+
+nav .navbar-toggler{
+    background-color: white;
+    border: solid 2px palevioletred;
+}
+
+@media only screen and (max-width: 1650px){
+    nav .navbar-toggler{
+        margin-right: 0;
+    }
 }
 
 nav .btn-primary{
@@ -62,10 +85,16 @@ nav .nav-item .nav-link:hover{
     transition: ease .5s;
 }
 
-nav .social-nav h1{
+nav .social-nav h2{
     text-align: center;
     color: palevioletred;
     text-shadow:2px 2px 4px black;
+}
+
+nav .social-nav p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
 }
 
 nav .social-nav{
@@ -97,7 +126,16 @@ nav .social-nav li a:hover{
     text-shadow: 2px 2px 4px black;
 }
 
-/* home banner*/
+/* index.html section */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+#index-body{
+    background-color: black;
+}
 
 .home-banner{
     width: 100%;
@@ -107,7 +145,14 @@ nav .social-nav li a:hover{
     text-shadow: 2px 2px 4px white, -2px -2px 4px white;
 }
 
+
 .home-banner h1{
+    margin-top: 200px;
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.home-banner h2{
     margin-top: 200px;
     font-size: 90px;
     font-weight: 800;
@@ -142,12 +187,24 @@ nav .social-nav li a:hover{
 }
 
 .home-banner video{
-    position: fixed;
+    position:absolute;
     right: 0;
-    bottom: 0;
     z-index: -1;
     background-size: cover;
 }
+
+@media only screen and (max-width: 767px){
+    .home-banner h1{
+        font-size: 50px;
+    }
+
+    .home-banner button{
+        font-size: 20px;
+        width: 150px;
+    }
+}
+
+  /* what makes us section */
 
 
 .home-us{
@@ -245,7 +302,7 @@ nav .social-nav li a:hover{
       overflow-x: hidden;
 }
 
-.home-menu .menu-head h1{
+.home-menu .menu-head h2{
     text-align: center;
     margin-top: 20px;
     font-size: 100px;
@@ -446,11 +503,23 @@ nav .social-nav li a:hover{
     text-shadow: 2px 2px 4px palevioletred;
 }
 
+.featured .text{
+    color: palevioletred;
+}
+
+.menu-standard .text{
+    color: palevioletred;
+}
+
 .home-menu .card-text{
     font-size: 20px;
 }
 
 @media only screen and (max-width: 767px){
+    .home-menu .menu-head h2{
+        font-size: 60px;
+    }
+
     .home-menu .card .card-img-top{
         height: 300px;
         width: auto;
@@ -510,118 +579,15 @@ nav .social-nav li a:hover{
     }
     }
 
-.home-footer{
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.home-footer h4{
-    color: palevioletred;
-    margin-top: 30px;
-    font-size: 40px;
-}
-
-#footer-about {
-    flex: 1;
-    text-align: center;
-    margin-top: 10px;
-  }
-  
-  #footer-contact {
-    flex: 1;
-    text-align: center;
-    margin-top: 20px;
-    margin-right: 5px;
-    margin-left: 5px;
-    border-left: 4px dotted palevioletred;
-    border-right: 4px dotted palevioletred;
-  }
-  
-  #footer-social {
-    flex: 1;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  .social-footer {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-.social-footer ul {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-  }
-
-  .social-footer li {
-    display: inline-block;
-    list-style: none;
-    margin-top: 20px;
-  }
-  
-  .social-footer li a {
-    display: block;
-    padding: 10px;
-    color: white;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px palevioletred, -2px -2px 4px palevioletred;
-  }
-  
-  .social-footer li a:hover {
-    color: palevioletred;
-    text-shadow: 2px 2px 4px white, -2px -2px 4px white;
-    transition: ease .5s;
-  }
-
-  .social-footer li a i {
-    font-size: 20px; /* Set the font size to 2 times the default size */
-  }
-
-  .home-footer .copyright{
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    margin-top: 50px;
-  }
-
-@media only screen and (max-width: 441px){
-    #footer-contact {
-        border-right: none;
-        border-left: 2px dotted palevioletred;
-        margin-left: 10px;
-      }
-
-      #footer-about{
-        margin-right: 10px;
-      }
-}
-
-  @media only screen and (max-width: 992px){
-    .social-footer li a i {
-        font-size: 30px; /* Set the font size to 2 times the default size */
-      }
-      
-      .social-footer li {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-    #footer-social {
+    #specialmenu {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
       }
-  }
 
 #menu-body{
     background-color: black;
 }
+
 
 .menu-title{
     text-align: center;
@@ -632,20 +598,42 @@ nav .social-nav li a:hover{
     background-position: center;
 }
 
-.menu-title h1{
+.menu-title h2{
     font-size: 100px;
 }
 
-.menu-featured{
-    margin-right: 50px;
+
+.featured-header{
+    text-align: center;
+    justify-content: center;
     margin-bottom: 50px;
     margin-top: 50px;
     color: white;
-}
-
-.menu-featured h1{
     text-shadow: 2px 2px 4px palevioletred;
 }
+
+#featured .item{
+    color: white;
+    width: 90%;
+    margin-left: 80px;
+    padding: 10px;
+}
+
+
+@media (max-width: 1000px){
+    #featured .item{
+        width: auto;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 500px){
+    #featured .item{
+        width: auto;
+        margin-left: 0;
+    }
+}
+
 
 
 .menu-standard{
@@ -655,15 +643,12 @@ nav .social-nav li a:hover{
     color: white;
 }
 
-.menu-standard h1{
+.menu-standard h2{
     text-shadow: 2px 2px 4px palevioletred;
 }
 
-.menu-featured .featured-header h1{
-    text-align: center;
-}
 
-.menu-standard .standard-header h1{
+.menu-standard .standard-header h2{
     text-align: center;
 }
 
@@ -676,7 +661,7 @@ nav .social-nav li a:hover{
     background-position: center;
 }
 
-.about-title h1{
+.about-title h2{
     font-size: 100px;
 }
 
@@ -687,7 +672,7 @@ nav .social-nav li a:hover{
     text-align: center;
 }
 
-.about-mission h1{
+.about-mission h2{
     text-align: center;
     color: white;
     text-shadow: 2px 2px 4px palevioletred;
@@ -698,7 +683,7 @@ nav .social-nav li a:hover{
     margin-top: 50px;
 }
 
-.about-faq h1{
+.about-faq h2{
     text-align: center;
     color: white;
     text-shadow: 2px 2px 4px palevioletred;
@@ -759,12 +744,186 @@ nav .social-nav li a:hover{
     color: white;
   }
 
+  .contact-location {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px palevioletred;
+  }
+
   #contact h2{
     text-shadow: 2px 2px 4px palevioletred;
   }
 
+  .location-title{
+    margin-bottom: 20px;
+    text-align: center;
+  }
 
 
+  .contact-content .item{
+    background-color: black;  
+    margin: 50px;
+    padding: 25px;
+    text-align: center;
+    height: 160px;
+    color: white;
+  }
+
+  .contact-content i{
+    font-size: 50px;
+    text-shadow: 2px 2px 4px white;
+    color: palevioletred;
+}
+
+.contact-content h2{
+    font-size: 30px;
+    text-shadow: 2px 2px 4px palevioletred;
+}
+
+.contact-content .text{
+    font-size: 20px;
+}
+
+.contact-form .contact-info{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-form .contact-info h2{
+    text-shadow: 2px 2px 4px palevioletred;
+}
+
+.contact-form .contact-info p{
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+
+/* FOOTER SECTION  */
+
+.footer-main{
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+  .footer-main a {
+    color: white;
+  }
+
+  .footer-main h4 {
+    color: white;
+    text-shadow: 2px 2px 4px palevioletred, -2px -2px 4px palevioletred;
+  }
+
+  .footer-main span {
+    color: palevioletred;
+    text-shadow: 2px 2px 4px white, -2px -2px 4px white;
+  }
+
+  .footer-main h4:hover {
+    color: palevioletred;
+    text-shadow: 2px 2px 4px white, -2px -2px 4px white;
+  }
+
+  .footer-main span:hover {
+    color: white;
+    text-shadow: 2px 2px 4px palevioletred, -2px -2px 4px palevioletred;
+  }
+
+  .footer-main a:hover {
+    color: white;
+    text-shadow: 2px 2px 4px palevioletred, -2px -2px 4px palevioletred;
+  }
+
+  .footer-main .nav-item:hover {
+    color: palevioletred;
+    text-shadow: 2px 2px 4px white, -2px -2px 4px white;
+  }
+
+
+    /*  ORDER SECTION  */
+
+#order-body{
+    background-color: black;
+    color: white;
+}
+
+.shop{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 223px);
+    gap: 30px;
+    justify-content: center;
+}
+
+@media (max-width: 1000px){
+    .shop{
+        grid-template-columns: repeat(2, 223px);
+    }
+}
+
+@media (max-width: 500px){
+    .shop{
+        grid-template-columns: repeat(1, 223px);
+    }
+}
+
+.shop .item{
+    border: 2px solid palevioletred;
+    border-radius: 4px;
+}
+
+
+.shop .details{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.shop .price-quantity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop .price-quantity .buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.shop .price-quantity .buttons .fa-minus{
+    color: red;
+}
+
+.shop .price-quantity .buttons .fa-plus{
+    color: green;
+}
+
+/*  shopping cart logo */
+
+nav .cart{
+    color: palevioletred;
+    font-size: 30px;
+    position: relative;
+}
+
+
+nav .cartAmount{
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    color: white;
+    font-size: 16px;
+    padding: 3px;
+    border-radius: 3px;
+}
 
 
 /*   font-family: 'Bangers', cursive;   */

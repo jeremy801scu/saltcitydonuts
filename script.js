@@ -14,3 +14,11 @@
             }
           });
         }
+
+        //preloader
+
+      (function($){
+
+        new WOW().init();
+
+      })(jQuery);
